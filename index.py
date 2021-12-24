@@ -16,8 +16,11 @@ GPIO.setmode(GPIO.BCM)
 for k, v in pins:
     GPIO.setup(k, GPIO.OUT)
 
+
+# starting up the leds
 if ledaction == "on":
-    if whichled == "all":
+    # switch all the LEDS
+    if whichled == "all": 
         for k, v in pins:
             GPIO.output(k, True)
     else:
