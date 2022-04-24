@@ -3,9 +3,9 @@ import time
 from sys import argv
 
 pins = dict(
-    LEDa=17,
+    # LEDa=17,
     LEDb=18,
-    LEDc=22,
+    # LEDc=22,
     LEDd=23
     )
 
